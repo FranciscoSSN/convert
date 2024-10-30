@@ -57,7 +57,7 @@ function convertCurrency(amount, price, symbol) {
         // }
 
         // Exibe o total
-        result.textContent = `R$ ${total}`;
+        result.textContent = `${total}`;
 
 
         // Aplica a classe que exibe o footer para mostrar o resultado
