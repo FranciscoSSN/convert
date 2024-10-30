@@ -52,9 +52,9 @@ function convertCurrency(amount, price, symbol) {
         total = formatCurrencyBRL(total)
 
         // Verifica se o resultado não é um número
-        if(isNaN(total)) {
-            return alert("Por favor, digite o valor corretamente para converter.")
-        }
+        // if(isNaN(total)) {
+        //     return alert("Por favor, digite o valor corretamente para converter.")
+        // }
 
         // Exibe o total
         result.textContent = `R$ ${total}`;
